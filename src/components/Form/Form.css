@@ -1,0 +1,13 @@
+.form {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1rem;
+}
+
+.send-btn {
+   width: 100px;
+   height: 48px;
+   margin-top: 15px;
+   border-radius: 0.5rem;
+}
