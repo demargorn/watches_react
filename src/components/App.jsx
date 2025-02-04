@@ -22,6 +22,7 @@ const App = () => {
    };
 
    const handleDeleteWatch = (id) => setWatches(watches.filter((w) => w.id !== id));
+   
    return (
       <main className='container-md'>
          <Form onAdded={handleAdded} />
